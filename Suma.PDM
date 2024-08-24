@@ -1,0 +1,338 @@
+[Root]
+Most Recent Package=Setup LB
+
+
+[Package|Setup Suma|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Instalacion
+
+[Package|Setup Suma|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Suma|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Suma|Files Found]
+
+[Package|Setup Suma|Files Released]
+msado25.tlb=
+
+[Package|Setup Suma|Missing Dependency Information]
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Fiscal\Fiscal051122.Ocx=
+C:\Windows\System32\Fiscal051122.Ocx=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Setup Suma|Out-of-Date Dependency Information]
+
+[Package|Setup Suma|Files Added]
+
+[Package|Setup Suma|Files Removed]
+
+[Package|Setup Suma|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSHFLXGD.OCX=Yes
+C:\Windows\System32\MSHFGES.DLL=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Mis Archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Windows\System32\Fiscal051122.Ocx=Yes
+
+[Package|Setup Suma|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Suma|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Suma|Install Locations]
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\STDFTES.DLL=$(WinSysPath)
+C:\Windows\System32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Windows\System32\MSHFGES.DLL=$(WinSysPath)
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Fiscal\Fiscal051122.Ocx=$(AppPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Mis Archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=$(AppPath)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Windows\System32\Fiscal051122.Ocx=$(WinSysPath)
+
+[Package|Setup Suma|Configure Shared Files]
+Applicable=Yes
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=No
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Fiscal\Fiscal051122.Ocx=No
+D:\Mis Archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=No
+
+[Package|Setup Suma|Distribution]
+Type=single
+Size=1.44 MB
+Title=Suma
+
+[Package|Setup Suma|IconGroups]
+Group0=Suma
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Setup Suma|Suma]
+Icon1=Suma.EXE
+Title1=Suma
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup Suma|Package]
+PackageFolder=d:\Instalacion
+ProjectFolder=D:\Mis Archivos\Instituto\Proyectos VB\Suma\Proyecto
+ServerSideCab=
+File1=d:\Instalacion\setup.exe
+File2=d:\Instalacion\Setup.Lst
+File3=d:\Instalacion\Suma.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Setup LB|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=f:\Instalacion LB
+
+[Package|Setup LB|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup LB|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup LB|Files Found]
+
+[Package|Setup LB|Files Released]
+msado25.tlb=
+
+[Package|Setup LB|Missing Dependency Information]
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Fiscal\Fiscal051122.Ocx=
+C:\Windows\System32\Fiscal051122.Ocx=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Setup LB|Out-of-Date Dependency Information]
+C:\Windows\System32\CRYSTL32.OCX=
+
+[Package|Setup LB|Files Added]
+
+[Package|Setup LB|Files Removed]
+
+[Package|Setup LB|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSHFLXGD.OCX=Yes
+C:\Windows\System32\MSHFGES.DLL=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Windows\System32\Fiscal051122.Ocx=Yes
+F:\Proyectos VB\Proyectos VB\Libreria Bisio\Proyecto\Sistema.exe=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\Windows\System32\CRYSTL32.OCX=Yes
+C:\Windows\System32\CRPE32.DLL=Yes
+C:\Windows\System32\IMPLODE.DLL=Yes
+C:\Windows\System32\PG32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\Windows\Crystal\CRXLAT32.DLL=Yes
+C:\Windows\System32\P2BBND.DLL=Yes
+C:\Windows\System32\P3D4BDES.DLL=Yes
+C:\Windows\System32\P2BDAO.DLL=Yes
+C:\Windows\System32\P3BDAOES.DLL=Yes
+C:\Windows\System32\P2CTDAO.DLL=Yes
+C:\Windows\System32\P3CDAOES.DLL=Yes
+C:\Windows\System32\P2IRDAO.DLL=Yes
+C:\Windows\System32\P3RDAOES.DLL=Yes
+C:\Windows\System32\P2SODBC.DLL=Yes
+C:\Windows\System32\P3S4ODES.DLL=Yes
+C:\Windows\Crystal\U2DDISK.DLL=Yes
+C:\Windows\Crystal\X2D4DKES.DLL=Yes
+C:\Windows\Crystal\U2DMAPI.DLL=Yes
+C:\Windows\Crystal\X2D4MPES.DLL=Yes
+C:\Windows\Crystal\U2FCR.DLL=Yes
+C:\Windows\Crystal\X2F4CRES.DLL=Yes
+C:\Windows\Crystal\U2FDIF.DLL=Yes
+C:\Windows\Crystal\X2F4DFES.DLL=Yes
+C:\Windows\Crystal\U2FHTML.DLL=Yes
+C:\Windows\Crystal\X2F4HTES.DLL=Yes
+C:\Windows\Crystal\U2FREC.DLL=Yes
+C:\Windows\Crystal\X2F4RCES.DLL=Yes
+C:\Windows\Crystal\U2FRTF.DLL=Yes
+C:\Windows\Crystal\X2F4RTES.DLL=Yes
+C:\Windows\Crystal\U2FSEPV.DLL=Yes
+C:\Windows\Crystal\X2F4SVES.DLL=Yes
+C:\Windows\Crystal\U2FTEXT.DLL=Yes
+C:\Windows\Crystal\X2F4TXES.DLL=Yes
+C:\Windows\Crystal\U2FWKS.DLL=Yes
+C:\Windows\Crystal\X2F4WKES.DLL=Yes
+C:\Windows\Crystal\U2FWORDW.DLL=Yes
+C:\Windows\Crystal\X2F4WDES.DLL=Yes
+C:\Windows\Crystal\U2FXLS.DLL=Yes
+C:\Windows\Crystal\X2F4XLES.DLL=Yes
+C:\Windows\System32\CR2C40ES.DLL=Yes
+C:\Windows\System32\CC245ES.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\DBRPRES.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\MSCC2ES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Setup LB|Configure Registry Files]
+Applicable=No
+
+[Package|Setup LB|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup LB|Install Locations]
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\STDFTES.DLL=$(WinSysPath)
+C:\Windows\System32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Windows\System32\MSHFGES.DLL=$(WinSysPath)
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Fiscal\Fiscal051122.Ocx=$(AppPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Mis Archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=$(AppPath)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Windows\System32\Fiscal051122.Ocx=$(WinSysPath)
+F:\Proyectos VB\Proyectos VB\Libreria Bisio\Proyecto\Sistema.exe=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Windows\System32\CRYSTL32.OCX=$(WinSysPath)
+C:\Windows\System32\CRPE32.DLL=$(WinSysPath)
+C:\Windows\System32\IMPLODE.DLL=$(WinSysPath)
+C:\Windows\System32\PG32.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Windows\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\Windows\System32\P2BBND.DLL=$(WinSysPath)
+C:\Windows\System32\P3D4BDES.DLL=$(WinSysPath)
+C:\Windows\System32\P2BDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3BDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2CTDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3CDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2IRDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3RDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2SODBC.DLL=$(WinSysPath)
+C:\Windows\System32\P3S4ODES.DLL=$(WinSysPath)
+C:\Windows\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4DKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4MPES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4CRES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4DFES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4HTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RCES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4SVES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4TXES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WDES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4XLES.DLL=$(WinPath)\Crystal
+C:\Windows\System32\CR2C40ES.DLL=$(WinSysPath)
+C:\Windows\System32\CC245ES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\DBRPRES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\MSCC2ES.DLL=$(WinSysPath)
+
+[Package|Setup LB|Configure Shared Files]
+Applicable=Yes
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=No
+C:\BKP\Mis archivos\Instituto\Proyectos VB\Fiscal\Fiscal051122.Ocx=No
+D:\Mis Archivos\Instituto\Proyectos VB\Suma\Proyecto\Suma.exe=No
+F:\Proyectos VB\Proyectos VB\Libreria Bisio\Proyecto\Sistema.exe=No
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=No
+
+[Package|Setup LB|Distribution]
+Type=single
+Size=1.44 MB
+Title=LB
+
+[Package|Setup LB|IconGroups]
+Group0=Suma
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Setup LB|Suma]
+Icon1=Suma.EXE
+Title1=Suma
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup LB|Package]
+PackageFolder=f:\Instalacion LB
+ProjectFolder=F:\Proyectos VB\Proyectos VB\Libreria Bisio\Proyecto
+ServerSideCab=
+File1=f:\Instalacion LB\setup.exe
+File2=f:\Instalacion LB\Setup.Lst
+File3=f:\Instalacion LB\Sistema.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
